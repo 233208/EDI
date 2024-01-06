@@ -78,6 +78,17 @@ border-radius: 40px;
     align-items: center;
 }
 
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(230, 227, 227);
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4a5170;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .LOGO{
     cursor: pointer;
     text-decoration: none;
@@ -96,16 +107,17 @@ border-radius: 40px;
 .data-table th, .data-table td {
     border: 2px solid #a9a0a0;
     padding: 8px;
-    text-align: left;
+    text-align: center;
 }
 
 .data-table th {
     background-color: #4a5170;
     color: rgb(230, 227, 227);
+    font-size: 17px;
 }
 
 .bar_chart{
-    width: 70%;
+    width: 80%;
     margin: 50px auto;
     align-items: center;
 }
@@ -192,11 +204,22 @@ transform: scale(1.01);
     padding: 10px;
     text-align: left;
     background: #4a5170;
-    font-size: large;
+    font-size: 17px;
     color: rgb(230, 227, 227);
     bottom: 0;
+    display: block;
+    border-radius: 10px;
 }
 
 .footer p {
     font-style: italic;
+}
+
+.footer a {
+    color: rgb(230, 227, 227);
+    font-style: italic;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    text-decoration: none;
 }
