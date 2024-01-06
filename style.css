@@ -168,3 +168,19 @@ border-radius: 40px;
 .footer-content{
     float: right;
 }
+
+.image-container {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #grayscaleImage {
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+  }
+  
+  #grayscaleImage:hover {
+    filter: grayscale(0%);
+    transform: scale(1.01);
+  }
