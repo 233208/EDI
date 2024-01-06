@@ -194,6 +194,7 @@ transform: scale(1.01);
     background: #4a5170;
     font-size: large;
     color: rgb(230, 227, 227);
+    bottom: 0;
 }
 
 .footer p {
