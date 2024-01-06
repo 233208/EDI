@@ -1,1 +1,1 @@
-Hi. I have corrected some mistackes in html code and added some new code to it. Moreover, I have enlarged diagrams and resuced the amount of program that was written in style.css file. And also I changed the design of webpage. I think it is not the last variant of our project. I still want to change the design of the webpage in some places, but I don't know how, so masybe you can help me. Hope you like the chaanges, if not - everything could be returned. Have a great evening.
+# EDI.github.io

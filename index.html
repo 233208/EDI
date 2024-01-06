@@ -14,13 +14,33 @@
 </head>
 <body>
 
-    <header>
-      
-      <div class="header">
-        <h1><span><a class="LOGO" href="index.html">CS2Stats</a></span></h1>
-      </div>
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="https://blog.counter-strike.net/index.php/about/">About CS:GO</a>
+      <a href="our_contacts.html">Our Contacts</a>
+      <a href="https://www.hltv.org/stats">Counter-Strike Statistics database</a>
+    </div>
+    
+    <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
 
-    </header>
+    <script>
+      function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+      }
+      </script>
+
+
+  <header>
+        
+    <div class="header">
+      <h1><span><a class="LOGO" href="index.html">CS2Stats</a></span></h1>
+    </div>
+
+  </header>
 
     <section>
       
@@ -28,8 +48,12 @@
         
         <h2 class="second_paragraph">Our Best Players</h2>
 
+        <span class="img-wrap">
+          <img class="img" src="premier_hero.png" alt="premier_hero" width = "800" height = "450"/>
+        </span>
+
         <table class="data-table">
-          
+
           <thead>
 
             <!--Nagłówki tabeli--> 
@@ -73,6 +97,15 @@
         </div>
 
       </center>
+
+      <h1 class = 'updates'>Major Updates in CS:GO:</h1>
+      
+      <div class="images">
+        <a href = 'https://www.counter-strike.net/riptide'><img class="img" src="riptide.png" alt="premier_hero" width = "620" height = "400"/></a>
+        <a href = 'https://www.counter-strike.net/shatteredweb'><img class="img" src="shattered-web.webp" alt="shattered-web" width = "620" height = "400"/></a>
+        <a href = 'https://www.counter-strike.net/operationpayback'><img class="img" src="Payback.jpg" alt="payback" width = "620" height = "400"/></a>
+        <a href = 'https://www.counter-strike.net/operationhydra?l=polish'><img class="img" src="hydra.jpg" alt="hydra" width = "620" height = "400"/></a>
+      </div>
 
       <!--Zespół-->
 

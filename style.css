@@ -16,10 +16,66 @@ body{
     margin: 0 auto; 
 }
 
+/* The sidepanel menu */
+.sidepanel {
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed;
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #332d2d;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    margin: 0 auto;
+    border-radius: 40px;
+    padding-bottom: 22px;
+}
+
+.sidepanel a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidepanel a:hover {
+color: rgb(82, 147, 150);
+}
+
+.sidepanel .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+.openbtn {
+font-size: 20px;
+cursor: pointer;
+background-color: #4d4b4b;
+color: white;
+padding: 10px 15px;
+border: none;
+border-radius: 40px;
+}
+  
+.openbtn:hover {
+background-color: #6f6062;
+border-radius: 40px;
+}
+
 .second_paragraph{
     font-size: 30px;
     text-align: center;
     margin: 5px;
+}
+
+.img {
+    align-items: center;
 }
 
 .LOGO{
@@ -49,12 +105,29 @@ body{
 }
 
 .bar_chart{
-    width: 100%;
+    width: 70%;
     margin: 50px auto;
     align-items: center;
 }
 
 .pie_chart{
+    width: 50%;
+    height: 50%;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.updates {
+    text-align: center;
+    color:#6f6062;
+    padding: 0px;
+    font-size: 30px;
+    width: 100%; 
+    margin: 20px;
+    font-size: xx-large;
+}
+
+.images {
     width: 80%;
     height: 60%;
     margin: 50px auto;
@@ -78,7 +151,7 @@ body{
 .mem_list_ul {
     list-style-type: none;
     padding: 0;
-    font-size: px;
+    font-size: 20px;
 }
 
 .mem_list_li {
