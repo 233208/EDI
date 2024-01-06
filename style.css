@@ -173,14 +173,29 @@ border-radius: 40px;
     text-align: center;
     position: relative;
     overflow: hidden;
-  }
-  
-  #grayscaleImage {
-    filter: grayscale(100%);
-    transition: filter 0.3s;
-  }
-  
-  #grayscaleImage:hover {
-    filter: grayscale(0%);
-    transform: scale(1.01);
-  }
+    padding: 50px;
+}
+
+#grayscaleImage {
+filter: grayscale(100%);
+transition: filter 0.3s;
+}
+
+#grayscaleImage:hover {
+filter: grayscale(0%);
+transform: scale(1.01);
+}
+
+
+.footer {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    background: #4a5170;
+    font-size: large;
+    color: rgb(230, 227, 227);
+}
+
+.footer p {
+    font-style: italic;
+}

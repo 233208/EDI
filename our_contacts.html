@@ -12,9 +12,23 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <a href="https://blog.counter-strike.net/index.php/about/">About CS:GO</a>
       <a href="https://www.hltv.org/stats">Counter-Strike Statistics database</a>
-      <a href="our_contacts.html">About Us</a>
+      <a href="index.html">Main page</a>
     </div>
+
+    <button class="openbtn" onclick="openNav()">&#9776; Menu</button>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidepanel").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+      }
+      </script>
+    <center>
     <h1>Projekt Team Members</h1>
+    </center>
           <!--Zespół-->
           <div class="members-list">
             <ul class="mem_list_ul">
