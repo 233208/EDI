@@ -109,13 +109,19 @@ border-radius: 40px;
     margin: 50px auto;
     align-items: center;
 }
-
-.pie_chart{
-    width: 50%;
-    height: 50%;
+.side_bar_chart{
+    width: 70%;
     margin: 50px auto;
     align-items: center;
 }
+
+.pie_chart{
+    width: 40%;
+    height: 40%;
+    margin: 50px auto;
+    align-items: center;
+}
+
 
 .updates {
     text-align: center;
