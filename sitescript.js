@@ -152,7 +152,7 @@ function createBarChart2(fav_team) {
                 'rgba(22, 219, 101, 1)',
                 'rgba(243, 65, 24, 1)',
                 'rgba(255, 210, 52, 1)',
-                'rgba(136, 13, 230, 1)'
+                'rgba(136, 13, 231, 1)'
                 ],
                 borderColor: 'rgba(75, 192, 192, 1)',
                 borderWidth: 1,
